@@ -1,0 +1,245 @@
+#create {
+    width: 100%;
+    height: 100vh;
+    background: url('https://wallpapercave.com/wp/wp3013421.jpg') no-repeat center center fixed;
+    box-sizing: border-box;
+    padding: 6px;
+}
+
+#create .contBoton .botonCreate {
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: rgb(233, 33, 33);
+    width: 150px;
+    height: 50px;
+}
+
+#create .botonHome:hover {
+    transform: scale(1.08);
+}
+
+.botonHome {
+    padding: 0px;
+    font: bold 1em sans-serif;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: rgb(233, 33, 33);
+    cursor: pointer;
+    transform: rotate(3.5deg);
+    margin-top: 0px;
+    width: 150px;
+    height: 50px
+}
+
+#formulario {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+#formulario .contFormulario {
+    width: 75%;
+    display: flex;
+    background-image: url("src/assets/pokedex.png");
+    background-size: cover;
+    /* O "contain" dependiendo de cómo quieres que se ajuste la imagen */
+    background-position: center;
+    /* Centra la imagen en la página */
+    background-repeat: no-repeat;
+    /* Evita que la imagen se repita */
+    object-fit: contain;
+    justify-content: right;
+    margin: 0;
+    padding: 0;
+}
+
+#formulario .contFormulario .caracteristicas {
+    background-color: rgb(52, 52, 80);
+    background-color: white;
+    /* display: block; */
+    /* justify-content: right; */
+    margin-right: 205px;
+    margin-top: 100px;
+    width: 330px;
+    height: 500px;
+    box-sizing: border-box;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+#formulario .contFormulario .caracteristicas h2 {
+    margin: 6px;
+}
+
+#formulario .caracteristicas .label {
+    width: max-content;
+    margin: 10px auto;
+    display: grid;
+    grid-template-areas: "input";
+}
+
+#formulario .caracteristicas .input {
+    grid-area: input;
+    width: 150px;
+    font: inherit;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 4px 5rem;
+}
+
+#formulario .caracteristicas .label__name {
+    grid-area: input;
+    z-index: 100;
+    width: max-content;
+    padding: 0rem 1.0rem;
+    align-self: center;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    transition: transform .2s;
+    transform-origin: center left;
+}
+
+#formulario .caracteristicas .input:focus+.label__name,
+#formulario .caracteristicas .input:not(:placeholder-shown)+.label__name {
+    transform: translateY(-50%) scale(.7);
+    background-color: white;
+    margin: 0;
+
+}
+
+#formulario .caracteristicas .agregarTipos {
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    margin: 4px;
+    height: 30px;
+    align-items: center;
+
+}
+#formulario .caracteristicas .btnAgregar{
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+#formulario .caracteristicas .btnAgregar:hover{
+    cursor: pointer;
+    background-color: #f06a68;
+    transform: scale(1.08);
+}
+#seleccionMultiple{
+    width: 160px;
+    border-radius: 6px;
+    background-color: #f06a68;
+    height: 26px;
+}
+#seleccionMultiple .seleccionar{
+    color: #1CB698;
+    background-color: #1CB698;
+}
+
+#formulario .caracteristicas .crearAgregarTipo {
+    display: flex;
+    width: 100%;
+    height: 30px;
+    align-content: start;
+    margin: 5px;
+}
+
+#formulario .caracteristicas .crearAgregarTipo h3 {
+    box-sizing: border-box;
+    /* background-color: chocolate; */
+    width: 100%;
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(15, 14, 14);
+    font-size: 14px;
+    margin: 0;
+    align-items: center;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    padding-left: 4px;
+}
+#formulario .caracteristicas .crearAgregarTipo h3:hover {
+    font-size: 18px;
+    color: #ea2f2f;
+}
+
+#formulario .caracteristicas .botonCrearPokemon {
+    width: 100%;
+    background-color: blue;
+    display: grid;
+    align-items: end;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #fff;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding:10px 22px;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+}
+#formulario .caracteristicas .botonCrearPokemon a{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+}
+#formulario .caracteristicas .btnCrear {
+    border: 0.5px solid #000000;
+    border-radius: 6px;
+}
+
+.botonCrearPokemon .btnCrear:first-child:hover {
+    background: linear-gradient(90deg, #1CB698, #f5fb43, #ffeb3b, #1CB698);
+    background-size: 400%;
+}
+
+.botonCrearPokemon .btnCrear:last-child:hover {
+    background: linear-gradient(90deg, #ea2f2f, #f5ce62, #1CB698, #ea2f2f);
+    background-size: 400%;
+}
+
+.botonCrearPokemon .btnCrear:first-child:before,
+.botonCrearPokemon .btnCrear:last-child:before {
+    content: '';
+    position: absolute;
+    background: inherit;
+    top: -5px;
+    right: -5px;
+    bottom: -5px;
+    left: -5px;
+    border-radius: 50px;
+    filter: blur(20px);
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.botonCrearPokemon .btnCrear:first-child:hover:before,
+.botonCrearPokemon .btnCrear:last-child:hover:before {
+    opacity: 1;
+    z-index: -1;
+}
+
+.botonCrearPokemon .btnCrear:hover {
+    z-index: 1;
+    animation: glow 8s linear infinite;
+}
+
+@keyframes glow {
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 400%;
+    }
+}

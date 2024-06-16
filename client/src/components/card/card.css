@@ -1,0 +1,233 @@
+.cardContenedor {
+    /* padding: ; */
+    box-sizing: border-box
+}
+
+.cardBotonCierre {
+    background-color: transparent;
+    border: #333;
+    color: #f60505;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: 800;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.cardBotonCierre:hover {
+    background-color: #d11b1b;
+    color: #fff;
+  }
+
+.tarjeta {
+    width: 150px;
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    margin: 10px;
+    /* padding: 30px;   */
+    border-radius: 5px;
+    background-color: orange;
+
+}
+
+.textCardTitle {
+    text-align: center;
+    text-shadow: 1px 1px 1px rgb(22, 14, 35)(0, 8, 255);
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 0.3;
+    font-family: Franklin Gothic Medium;
+}
+
+.textCardCaract {
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Franklin Gothic Medium;
+}
+
+.img_tarjeta {
+    /* width: auto; */
+    width: 150px;
+    height: 35mm;
+    border-style: solid;
+    border-color: rgb(171, 115, 115);
+    border-width: 0px;
+    margin: px;
+    border-radius: 5px;
+}
+
+.img_tarjeta:hover {
+    transform: scale(1.05);
+}
+
+
+.link {
+    color: black;
+    text-decoration: none;
+
+}
+
+.normal {
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #A8A878;
+}
+
+.fire {
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #F08030;
+}
+
+.water {
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #6890F0;
+}
+
+.electric {
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #F8D030;
+}
+
+.grass {
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #78C850;
+}
+
+.ice {
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #98D8D8;
+}
+
+.fighting {
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #e5ffff;
+}
+
+.poison {
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #A040A0;
+}
+
+.ground {
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #E0C068;
+}
+
+.flying {
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #A890F0;
+}
+
+.psychic {
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #F85888;
+}
+
+.bug {
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #A8B820;
+}
+
+.rock {
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #B8A038;
+}
+
+.ghost {
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #705898;
+}
+
+.dragon {
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #7038F8;
+}
+
+.dark {
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #705848;
+}
+
+.steel {
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #B8B8D0;
+}
+
+.fairy {
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #B35665;
+}
