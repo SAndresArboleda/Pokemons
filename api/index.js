@@ -27,6 +27,6 @@ conn.sync({ force: false }).then(() => {//sync para hacer la comunicacion, sincr
 la informacion en js. Puede ser alter:true que es para actualizar solo lo que se modifique de la tabla, este mas usado al crear pagina*/
   server.listen(3001, () => {
     console.log('%s listening at 3001'); // eslint-disable-line no-console
-    //typeApiToBd()
+    typeApiToBd()
   });
 });
