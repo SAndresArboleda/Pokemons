@@ -3,7 +3,7 @@ import axios from 'axios'
 export const getPokemons = () => {
     try {
         return async (dispatch) => {
-            const  {data}  = (await axios.get('http://localhost:3001/'));
+            const { data } = (await axios.get('http://localhost:3001/'));
             return dispatch({
                 type: 'GET_POKEMONS',
                 payload: data
@@ -118,7 +118,7 @@ export const createPokemon = (payload) => {
 }
 
 export const removePokemons = (newList) => {
-    return{
+    return {
         type: REMOVE_POK,
         payload: newList
     }

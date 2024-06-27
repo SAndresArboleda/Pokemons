@@ -34,12 +34,6 @@ const Card = ({ pok }) => {
         dispatch(removePokemons(localPokemonList))
     }
 
-    // const onClose = (e) => {
-    //     e.preventDefault();
-    //     localPokemonList = localPokemonList.filter(char => char.id !== Number(id));
-    //     dispatch(removePokemons(localPokemonList));
-    // };
-
     return (
         <div className="cardContenedor">
             <div className={[clase]} >
